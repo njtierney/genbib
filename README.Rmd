@@ -1,0 +1,37 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# genbib
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of genbib is to make it easier for me to generate bib files.
+
+## Installation
+
+Install the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("remotes")
+remotes::install_github("njtierney/genbib")
+```
+## Example
+
+```{r example}
+library(genbib)
+gen_bib_url(handle = "wikipedia",
+            url = "https://en.wikipedia.org/wiki/Main_Page")
+```
+

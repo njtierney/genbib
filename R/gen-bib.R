@@ -11,8 +11,8 @@
 #' @export
 #'
 #' @examples
-#' gen_bib_url(handle = "data-access",
-#'             url = "https://github.com/JuliaDatabases")
+#' gen_bib_url(handle = "wikipedia",
+#'             url = "https://en.wikipedia.org/wiki/Main_Page")
 gen_bib_url <- function(handle,
                         url,
                         title = handle,
