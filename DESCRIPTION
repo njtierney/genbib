@@ -1,0 +1,15 @@
+Package: genbib
+Title: Generate bibliography stubs on the fly
+Version: 0.0.0.9000
+Authors@R: person("Nicholas", 
+                  "Tierney", 
+                  email = "nicholas.tierney@gmail.com", 
+                  role = c("aut", "cre"))
+Description: Short utility functions to generate bibliography stubs on the fly
+Depends: R (>= 3.5.3)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    glue,
+    clipr
