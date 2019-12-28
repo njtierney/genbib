@@ -2,10 +2,14 @@
 % Please edit documentation in R/gen-bib-addin.R
 \name{gen_bib_addin}
 \alias{gen_bib_addin}
-\title{Make it easier to cite webaddresses}
+\title{Make it easier to cite web addresses
+Based on 'Twitter Rant!' Addin UI from Bob Rudis; see
+   \url{https://github.com/hrbrmstr/hrbraddins}}
 \usage{
 gen_bib_addin()
 }
 \description{
-Make it easier to cite webaddresses
+Make it easier to cite web addresses
+Based on 'Twitter Rant!' Addin UI from Bob Rudis; see
+   \url{https://github.com/hrbrmstr/hrbraddins}
 }
