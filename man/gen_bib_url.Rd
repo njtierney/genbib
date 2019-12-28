@@ -4,8 +4,7 @@
 \alias{gen_bib_url}
 \title{Generate bib citations for URLs for some given strings}
 \usage{
-gen_bib_url(handle, url, title = handle, date = Sys.Date(),
-  clipboard = FALSE)
+gen_bib_url(handle, url, title = handle, date = Sys.Date(), clipboard = FALSE)
 }
 \arguments{
 \item{handle}{character - the name of the handle}

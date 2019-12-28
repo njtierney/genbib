@@ -1,0 +1,4 @@
+Name: Run genbib
+Description:Run 'genbib' interactively
+Binding: gen_bib_addin
+Interactive: true

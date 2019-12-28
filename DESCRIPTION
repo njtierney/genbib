@@ -12,5 +12,7 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     glue,
-    clipr
-RoxygenNote: 6.1.1
+    clipr,
+    miniUI,
+    shiny
+RoxygenNote: 7.0.2
