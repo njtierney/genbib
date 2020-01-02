@@ -1,10 +1,15 @@
 Package: genbib
 Title: Generate Bibliography Stubs on the Fly
 Version: 0.0.0.9000
-Authors@R: person("Nicholas", 
+Authors@R: c(person("Nicholas", 
                   "Tierney", 
                   email = "nicholas.tierney@gmail.com", 
-                  role = c("aut", "cre"))
+                  role = c("aut", "cre"),
+                  comment = c(ORCID = "0000-0003-1460-8722")),
+                  person("Michael", "DeWitt", 
+                  email = "me.dewitt.jr@gmail.com", 
+                  role = c("aut"),
+    comment = c(ORCID = "0000-0001-8940-1967")))
 Description: Short utility functions to generate bibliography stubs on the fly.
 Depends: R (>= 3.5.0)
 License: MIT + file LICENSE
