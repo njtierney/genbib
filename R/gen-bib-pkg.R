@@ -11,6 +11,7 @@
 #' #  url = {https://CRAN.R-project.org/package=dplyr},
 #' #  }
 #' # }
+#' @import shiny miniUI
 gen_bib_pkg <- function(pkg,
                         handle = pkg,
                         clipboard = FALSE){
